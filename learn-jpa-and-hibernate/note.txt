@@ -1,0 +1,5 @@
+INSERT INTO course (id, name, author) VALUES (1, 'Learn AWS', 'in28Minutes');
+
+select * from course;
+
+delete from course where id = 1;
